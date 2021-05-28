@@ -35,11 +35,11 @@ const Header = ({ t }) => {
           <S.Span>{t("About")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <S.Span>{t("Mission")}</S.Span>
+          <S.Span>{t("Portofolio")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("product")}>
+        {/* <S.CustomNavLinkSmall onClick={() => scrollTo("product")}>
           <S.Span>{t("Product")}</S.Span>
-        </S.CustomNavLinkSmall>
+        </S.CustomNavLinkSmall> */}
         <S.CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("contact")}
